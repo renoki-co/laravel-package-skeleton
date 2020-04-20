@@ -8,7 +8,7 @@
 [![Monthly Downloads](https://poser.pugx.org/renoki-co/:package_name/d/monthly)](https://packagist.org/packages/renoki-co/:package_name)
 [![License](https://poser.pugx.org/renoki-co/:package_name/license)](https://packagist.org/packages/renoki-co/:package_name)
 
-**Note:** Replace  ```:package_name``` ```:package_description``` ```:package_namespace``` ```author_name``` ```:author_link``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
+**Note:** Replace  ```:package_name``` ```:package_description``` ```:package_namespace``` ```:author_name``` ```:author_link``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
 
