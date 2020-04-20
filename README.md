@@ -42,7 +42,7 @@ If you discover any security related issues, please email alex@renoki.org instea
 
 ## Credits
 
-- [:author_name](https://github.com/renoki-co)
+- [:author_name](:author_link)
 - [All Contributors](../../contributors)
 
 ## License
