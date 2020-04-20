@@ -1,4 +1,5 @@
-# Very short description of the package
+Package Name Here
+===================================
 
 [![Build Status](https://travis-ci.com/renoki-co/:package_name.svg?branch=master)](https://travis-ci.com/renoki-co/:package_name)
 [![codecov](https://codecov.io/gh/renoki-co/:package_name/branch/master/graph/badge.svg)](https://codecov.io/gh/renoki-co/:package_name/branch/master)
