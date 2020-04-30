@@ -25,6 +25,7 @@ composer require renoki-co/:package_name
 
 ``` php
 //
+```
 
 ## 🐛 Testing
 
