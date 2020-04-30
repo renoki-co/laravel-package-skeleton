@@ -13,7 +13,7 @@ Package Name Here
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
 
-## Installation
+## 🚀 Installation
 
 You can install the package via composer:
 
@@ -21,31 +21,30 @@ You can install the package via composer:
 composer require renoki-co/:package_name
 ```
 
-## Usage
+## 🙌 Usage
 
 ``` php
 //
-```
 
-## Testing
+## 🐛 Testing
 
 ``` bash
 vendor/bin/phpunit
 ```
 
-## Contributing
+## 🤝 Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Security
+## 🔒  Security
 
 If you discover any security related issues, please email alex@renoki.org instead of using the issue tracker.
 
-## Credits
+## 🎉 Credits
 
-- [:author_name](:author_link)
+- [Alex Renoki](https://github.com/rennokki)
 - [All Contributors](../../contributors)
 
-## License
+## 📄 License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
