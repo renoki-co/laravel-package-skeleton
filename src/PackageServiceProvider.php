@@ -4,7 +4,7 @@ namespace RenokiCo\:package_namespace;
 
 use Illuminate\Support\ServiceProvider;
 
-class PackageServiceProvider extends ServiceProvider
+class :package_service_provider extends ServiceProvider
 {
     /**
      * Boot the service provider.
