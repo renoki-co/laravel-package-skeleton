@@ -1,7 +1,8 @@
 Package Name Here
 ===================================
 
-![CI](https://github.com/renoki-co/:package_name/workflows/CI/badge.svg?branch=master)[![codecov](https://codecov.io/gh/renoki-co/:package_name/branch/master/graph/badge.svg)](https://codecov.io/gh/renoki-co/:package_name/branch/master)
+![CI](https://github.com/renoki-co/:package_name/workflows/CI/badge.svg?branch=master)
+[![codecov](https://codecov.io/gh/renoki-co/:package_name/branch/master/graph/badge.svg)](https://codecov.io/gh/renoki-co/:package_name/branch/master)
 [![StyleCI](https://github.styleci.io/repos/:styleci_code/shield?branch=master)](https://github.styleci.io/repos/:styleci_code)
 [![Latest Stable Version](https://poser.pugx.org/renoki-co/:package_name/v/stable)](https://packagist.org/packages/renoki-co/:package_name)
 [![Total Downloads](https://poser.pugx.org/renoki-co/:package_name/downloads)](https://packagist.org/packages/renoki-co/:package_name)
