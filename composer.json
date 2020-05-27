@@ -34,5 +34,12 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {	
+        "laravel": {	
+            "providers": [	
+                "RenokiCo\\:package_namespace\\:package_service_provider"	
+            ]	
+        }	
+    }
 }
