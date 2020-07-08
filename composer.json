@@ -35,11 +35,11 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "extra": {	
-        "laravel": {	
-            "providers": [	
-                "RenokiCo\\:package_namespace\\:package_service_provider"	
-            ]	
-        }	
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RenokiCo\\:package_namespace\\:package_service_provider"
+            ]
+        }
     }
 }
