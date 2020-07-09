@@ -7,9 +7,7 @@ use Orchestra\Testbench\TestCase as Orchestra;
 abstract class TestCase extends Orchestra
 {
     /**
-     * Set up the tests.
-     *
-     * @return void
+     * {@inheritdoc}
      */
     public function setUp(): void
     {
@@ -25,10 +23,7 @@ abstract class TestCase extends Orchestra
     }
 
     /**
-     * Get the package providers.
-     *
-     * @param  mixed  $app
-     * @return array
+     * {@inheritdoc}
      */
     protected function getPackageProviders($app)
     {
@@ -38,10 +33,7 @@ abstract class TestCase extends Orchestra
     }
 
     /**
-     * Set up the environment.
-     *
-     * @param  mixed  $app
-     * @return void
+     * {@inheritdoc}
      */
     public function getEnvironmentSetUp($app)
     {
