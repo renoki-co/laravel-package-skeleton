@@ -27,10 +27,22 @@ You can install the package via composer:
 composer require renoki-co/:package_name
 ```
 
+Publish the config:
+
+```bash
+$ php artisan --provider="RenokiCo\:package_namespace" --tag="config"
+```
+
+Publish the migrations:
+
+```bash
+$ php artisan --provider="RenokiCo\:package_namespace" --tag="migrations"
+```
+
 ## 🙌 Usage
 
-``` php
-//
+```php
+$ //
 ```
 
 ## 🐛 Testing
