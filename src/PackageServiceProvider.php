@@ -15,7 +15,7 @@ class :package_service_provider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/../config/config.php' => config_path('config.php'),
-        ]);
+        ], 'config');
 
         $this->mergeConfigFrom(
             __DIR__.'/../config/config.php', 'config'
