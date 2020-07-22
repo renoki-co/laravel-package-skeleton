@@ -30,13 +30,13 @@ composer require renoki-co/:package_name
 Publish the config:
 
 ```bash
-$ php artisan --provider="RenokiCo\:package_namespace" --tag="config"
+$ php artisan --provider="RenokiCo\:package_namespace\:package_service_provider" --tag="config"
 ```
 
 Publish the migrations:
 
 ```bash
-$ php artisan --provider="RenokiCo\:package_namespace" --tag="migrations"
+$ php artisan --provider="RenokiCo\:package_namespace\:package_service_provider" --tag="migrations"
 ```
 
 ## 🙌 Usage
