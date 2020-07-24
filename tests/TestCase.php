@@ -43,7 +43,7 @@ abstract class TestCase extends Orchestra
             'database' => __DIR__.'/database.sqlite',
             'prefix'   => '',
         ]);
-        $app['config']->set('auth.providers.users.model', User::class);
+        $app['config']->set('auth.providers.users.model', Models\User::class);
         $app['config']->set('app.key', 'wslxrEFGWY6GfGhvN9L3wH3KSRJQQpBD');
     }
 
