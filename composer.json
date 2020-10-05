@@ -2,7 +2,7 @@
     "name": "renoki-co/:package_name",
     "description": ":package_description",
     "keywords": ["laravel", "php"],
-    "license": "MIT",
+    "license": "Apache-2.0",
     "homepage": "https://github.com/renoki-co/:package_name",
     "authors": [
         {
