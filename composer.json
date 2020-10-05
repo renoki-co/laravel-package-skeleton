@@ -6,8 +6,8 @@
     "homepage": "https://github.com/renoki-co/:package_name",
     "authors": [
         {
-            "name": ":author_name",
-            "homepage": ":author_link",
+            "name": "Alex Renoki",
+            "homepage": "https://github.com/rennokki",
             "role": "Developer"
         }
     ],
