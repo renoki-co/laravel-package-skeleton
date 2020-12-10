@@ -18,8 +18,6 @@ abstract class TestCase extends Orchestra
         $this->loadLaravelMigrations(['--database' => 'sqlite']);
 
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
-        $this->withFactories(__DIR__.'/database/factories');
     }
 
     /**
@@ -37,14 +35,14 @@ abstract class TestCase extends Orchestra
      */
     public function getEnvironmentSetUp($app)
     {
+        $app['config']->set('app.key', 'wslxrEFGWY6GfGhvN9L3wH3KSRJQQpBD');
+        $app['config']->set('auth.providers.users.model', Models\User::class);
         $app['config']->set('database.default', 'sqlite');
         $app['config']->set('database.connections.sqlite', [
             'driver'   => 'sqlite',
             'database' => __DIR__.'/database.sqlite',
             'prefix'   => '',
         ]);
-        $app['config']->set('auth.providers.users.model', Models\User::class);
-        $app['config']->set('app.key', 'wslxrEFGWY6GfGhvN9L3wH3KSRJQQpBD');
     }
 
     /**
