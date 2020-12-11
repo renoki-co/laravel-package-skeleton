@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiCo\:package_namespace\Test\Models;
+namespace Database\Factories\RenokiCo\:package_namespace\Test\Models;
 
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Factories\Factory;
