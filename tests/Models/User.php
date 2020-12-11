@@ -16,9 +16,4 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
-
-    protected static function newFactory()
-    {
-        return new \RenokiCo\:package_namespace\Test\Factories\UserFactory;
-    }
 }

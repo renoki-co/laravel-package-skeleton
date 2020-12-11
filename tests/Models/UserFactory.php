@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiCo\:package_namespace\Test\Factories;
+namespace RenokiCo\:package_namespace\Test\Models;
 
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -12,7 +12,7 @@ class UserFactory extends Factory
      *
      * @var string
      */
-    protected $model = \RenokiCo\BillingPortal\Test\Models\User::class;
+    protected $model = User::class;
 
     /**
      * Define the model's default state.
