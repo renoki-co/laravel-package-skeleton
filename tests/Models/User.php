@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiGaming\:package_namespace\Test\Models;
+namespace RenokiGames\:package_namespace\Test\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
