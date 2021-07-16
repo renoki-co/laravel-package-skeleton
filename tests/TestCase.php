@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiGames\:package_namespace\Test;
+namespace RenokiCo\:package_namespace\Test;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 

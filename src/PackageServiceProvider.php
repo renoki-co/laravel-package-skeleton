@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiGames\:package_namespace;
+namespace RenokiCo\:package_namespace;
 
 use Illuminate\Support\ServiceProvider;
 

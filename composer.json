@@ -1,9 +1,9 @@
 {
-    "name": "renoki-games/:package_name",
+    "name": "renoki-co/:package_name",
     "description": ":package_description",
     "keywords": ["laravel", "php"],
     "license": "Apache-2.0",
-    "homepage": "https://github.com/renoki-games/:package_name",
+    "homepage": "https://github.com/renoki-co/:package_name",
     "authors": [
         {
             "name": "Alex Renoki",
@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "RenokiGames\\:package_namespace\\": "src/"
+            "RenokiCo\\:package_namespace\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RenokiGames\\:package_namespace\\Test\\": "tests"
+            "RenokiCo\\:package_namespace\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RenokiGames\\:package_namespace\\:package_service_provider"
+                "RenokiCo\\:package_namespace\\:package_service_provider"
             ]
         }
     }
