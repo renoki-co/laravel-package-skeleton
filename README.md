@@ -24,13 +24,13 @@ composer require renoki-co/:package_name
 Publish the config:
 
 ```bash
-$ php artisan vendor:publish --provider="RenokiCo\:package_namespace\:package_service_provider" --tag="config"
+php artisan vendor:publish --provider="RenokiCo\:package_namespace\:package_service_provider" --tag="config"
 ```
 
 Publish the migrations:
 
 ```bash
-$ php artisan vendor:publish --provider="RenokiCo\:package_namespace\:package_service_provider" --tag="migrations"
+php artisan vendor:publish --provider="RenokiCo\:package_namespace\:package_service_provider" --tag="migrations"
 ```
 
 ## 🙌 Usage
