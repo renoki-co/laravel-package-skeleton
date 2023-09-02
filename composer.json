@@ -30,7 +30,7 @@
     "require-dev": {
         "laravel/legacy-factories": "^1.1",
         "mockery/mockery": "^1.4",
-        "orchestra/testbench": "^7.14",
+        "orchestra/testbench": "^7.28",
         "vimeo/psalm": "4.24.0"
     },
     "config": {
